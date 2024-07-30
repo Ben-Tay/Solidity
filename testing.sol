@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity >=0.8.26;
+pragma solidity >=0.8.26;   // State version of solidity working with, must be same as compiler version used
 
 contract Ben {
     uint age;               // uint = non-negative integer
