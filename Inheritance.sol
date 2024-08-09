@@ -6,7 +6,9 @@ pragma solidity >= 0.8.0;
 contract Ownable {
     address owner;
 
-    constructo
+    constructor() {
+        owner = msg.sender;
+    }
 
     // create custom modifier to ensure onlyOwner can access particular function
     modifier onlyOwner {
